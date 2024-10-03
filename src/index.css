@@ -1,0 +1,58 @@
+:root {
+  --acent: #07cefb;
+}
+
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aboutme-container {
+  h1 {
+    margin-bottom: 20px;
+
+    span {
+      background-color: var(--acent);
+    }
+  }
+
+  .image-me {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 20px 20px 60px #bebebe,
+      -20px -20px 60px #ffffff;
+    width: 80%;
+  }
+}
+
+.hobbies-container {
+  .carousel-caption {
+    bottom: 10%;
+    background: rgb(0, 0, 0, .5);
+    width: 100%;
+    left: 0;
+  }
+
+
+
+  .hobbie-img {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 20px 20px 60px #bebebe,
+      -20px -20px 60px #ffffff;
+  }
+}
+
+section {
+  color: #000;
+  background-color: white;
+  min-height: calc(100vh - 56px);
+}
+.separator {
+  width: 20%;
+  height: 3px;
+  background: #000;
+  margin-bottom: 20px;
+}
